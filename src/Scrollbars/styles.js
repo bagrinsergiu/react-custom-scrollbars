@@ -31,7 +31,7 @@ export const viewStyleAutoHeight = {
 
 export const viewStyleUniversalInitial = {
     overflow: 'hidden',
-    marginRight: 0,
+    marginInlineEnd: 0,
     marginBottom: 0,
 };
 

@@ -8,7 +8,7 @@ export function renderViewDefault(props) {
 export function renderTrackHorizontalDefault({ style, ...props }) {
     const finalStyle = {
         ...style,
-        right: 2,
+        insetInlineEnd: 2,
         bottom: 2,
         left: 2,
         borderRadius: 3
@@ -19,7 +19,7 @@ export function renderTrackHorizontalDefault({ style, ...props }) {
 export function renderTrackVerticalDefault({ style, ...props }) {
     const finalStyle = {
         ...style,
-        right: 2,
+        insetInlineEnd: 2,
         bottom: 2,
         top: 2,
         borderRadius: 3
